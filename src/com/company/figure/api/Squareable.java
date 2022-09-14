@@ -1,5 +1,8 @@
 package com.company.figure.api;
+import static java.lang.Math.*;
 
-public interface Figurable {
-  
+public interface Squareable {
+
+  double figSpase();
+
 }
