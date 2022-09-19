@@ -27,7 +27,8 @@ public class Main {
         arrParticipant) {
       for (Obstacle obs :
           arrObstacle) {
-        if (!obs.overCome(part)) {
+        boolean b = obs.overCome(part);
+        if (b) {
           break;
         }
       }

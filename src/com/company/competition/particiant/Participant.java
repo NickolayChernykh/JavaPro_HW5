@@ -5,9 +5,9 @@ package com.company.competition.particiant;
  */
 public abstract class Participant {
 
-  private String name;
-  private int limitRun;
-  private int limitJump;
+  private final String name;
+  private final int limitRun;
+  private final int limitJump;
 
   public Participant(String name, int limitRun, int limitJump) {
     this.name = name;

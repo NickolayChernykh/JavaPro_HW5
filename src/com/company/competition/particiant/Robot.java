@@ -1,7 +1,5 @@
 package com.company.competition.particiant;
 
-import com.company.competition.particiant.Participant;
-
 /**
  * Created by Chernykh on 17.09.2022
  */
