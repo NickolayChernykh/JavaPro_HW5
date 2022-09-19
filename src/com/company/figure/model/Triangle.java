@@ -23,7 +23,7 @@ public class Triangle implements Squareable {
   }
 
   @Override
-  public double figSpase() {
+  public double calculateSpace() {
     double sp = (a + b + c) / 2.0;
     return sqrt(sp * (sp - a) * (sp - b) * (sp - c)); // формула Герона
   }

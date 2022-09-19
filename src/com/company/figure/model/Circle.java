@@ -16,7 +16,7 @@ public class Circle implements Squareable {
   }
 
   @Override
-  public double figSpase() {
+  public double calculateSpace() {
     return PI * pow(radCircle, 2);
   }
 }

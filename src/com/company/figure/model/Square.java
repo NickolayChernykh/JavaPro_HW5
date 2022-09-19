@@ -15,7 +15,7 @@ public class Square implements Squareable {
   }
 
   @Override
-  public double figSpase() {
-    return a * a;
+  public double calculateSpace() {
+    return Math.pow(a, 2);
   }
 }

@@ -20,7 +20,7 @@ public class AppFigure {
         new Square(7),
         new Triangle(4, 5, 6)};
     for (Squareable arrFigure : arrFigures) {
-      totalSq += arrFigure.figSpase();
+      totalSq += arrFigure.calculateSpace();
 
     }
     System.out.println("Сумма площадей всех фигур в этом массиве = " + totalSq);
