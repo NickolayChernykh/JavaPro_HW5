@@ -7,18 +7,17 @@ import com.company.competition.particiant.Participant;
  */
 public class Robot extends Participant {
 
-  public Robot(String name, int limitRun, int limitjump) {
-    super(name, limitRun, limitjump);
+  public Robot(String name, int limitRun, int limitJump) {
+    super(name, limitRun, limitJump);
   }
-
 
   @Override
   public void run() {
-    System.out.println("Робот бежит!");
+    System.out.println("Робот " + getName() + " бежит!");
   }
 
   @Override
   public void jump() {
-    System.out.println("Робот прыгает");
+    System.out.println("Робот " + getName() + " прыгает");
   }
 }
